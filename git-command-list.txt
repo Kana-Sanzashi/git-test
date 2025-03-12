@@ -1,0 +1,18 @@
+Git Bash
+
+branch コマンド
+
+	branchの追加（現在のブランチをコピー）
+	git branch [ブランチ名]
+
+	branchの切り替え
+	git checkout [ブランチ名]
+
+	branchの追加と切り替え
+	git switch -c [ブランチ名]
+
+	branchの統合
+	git merge [ブランチ名]
+
+	branchの削除
+	git branch -d [ブランチ名]

@@ -1,6 +1,61 @@
 Git Bash
 
+config コマンド
+
+	ユーザを追加
+	git config --global user.name [ユーザ名]
+
+	ユーザのメールアドレスを追加
+	git config --global user.email [メールアドレス]
+
+	ユーザを確認
+	git config --global user.name
+
+	ユーザのメールアドレスを確認
+	git config --global user.email
+
+	設定の一覧
+	git config -l
+		viエディタが起動
+		[:q!]を入力 保存せずにviエディタを終了
+
+init コマンド
+
+	カレントディレクトリをgitで管理（.gitディレクトリの追加）
+	git init
+
+status コマンド
+
+	変更の有無を確認
+	git status
+
+log コマンド
+
+	コミットの履歴の一覧
+	git log
+
+add コマンド
+
+	変更のあるファイルをステージに登録（コミットの対象にする）
+	git add [ファイル名]
+
+	変更のあるファイルをすべてステージング
+	git add .
+
+commit コマンド
+
+	ステージにあるファイルをローカルリポジトリに登録
+	git commit
+		viエディタが起動
+		[i]キー insertモードに切り替え
+		メッセージを入力
+		[esc]キー insertモードを終了
+		[:wq]を入力 [enter]キー 上書き保存しviエディタを終了
+
 branch コマンド
+
+	branchの一覧
+	git branch
 
 	branchの追加（現在のブランチをコピー）
 	git branch [ブランチ名]
